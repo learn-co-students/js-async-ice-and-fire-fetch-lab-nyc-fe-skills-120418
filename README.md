@@ -4,7 +4,8 @@
 
 In this lab, we'll be using `fetch()` to send web requests to
 the [Game of Thrones][GoT] API. We'll make a web request to the API, and in
-return we will receive a collection of data, structured like a nested hash.
+return we will receive a collection of data, structured like a nested JavaScript 
+object.
 
 ![Game of Thrones Come at Me Gif](https://media.giphy.com/media/3oEjI1erPMTMBFmNHi/giphy.gif)
 
@@ -29,7 +30,7 @@ return.
 **JSON** is a language-agnostic way of formatting data. If we send a web request
 to the Game of Thrones API, it will return to us a JSON collection of data. With
 just one easy line of code, we can tell JavaScript to treat that JSON collection
-as a nested hash. In this way, large and complicated amounts of data can be
+as a nested JavaScript object. In this way, large and complicated amounts of data can be
 shared across platforms.
 
 ## Objective
